@@ -1,0 +1,7 @@
+ServiceSoapBinding
+http%3A%2F%2Flocalhost%3A8084
+Sample-Application-Flow-OAuth2-Project
+TestSuite
+Default-ReadyAPI-Test-Project-Test-Suite-1
+ServiceSoapBinding-MockService
+RESTMockService

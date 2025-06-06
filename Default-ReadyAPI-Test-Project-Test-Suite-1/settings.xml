@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite xmlns:con="http://eviware.com/soapui/config" id="341bf9d2-f775-484f-ba13-b7aa24e3a000" name="Default ReadyAPI Test Project Test Suite 1">
+  <con:settings id="809b6531-a426-43de-97f9-66010abc3e47">
+    <con:setting id="341bf9d2-f775-484f-ba13-b7aa24e3a000fileName">Default-ReadyAPI-Test-Project-Test-Suite-1</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+  <con:environmentSpec>
+    <con:entry environmentId="292b3fec-ad8c-42b8-995d-44894387fcb4">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:testSuite>

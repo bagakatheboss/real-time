@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource xmlns:con="http://eviware.com/soapui/config" name="/ping" path="/ping" id="6cdf0235-f044-438b-8cb9-6685696286a8">
+  <con:settings>
+    <con:setting id="6cdf0235-f044-438b-8cb9-6685696286a8fileName">%2Fping</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="545fafe5-2cdf-4728-9c46-e9428c7ad0f1" method="GET">
+    <con:description>This operation shows how to override the global security defined above, as we want to open it up for all users.
+Server heartbeat operation</con:description>
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+    </con:representation>
+    <con:request name="Request 1" id="df1c64ca-222a-4b91-add6-ceb8924af83b" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://virtserver.swaggerhub.com</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters/>
+      <con:environmentSpec>
+        <con:entry environmentId="292b3fec-ad8c-42b8-995d-44894387fcb4">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="292b3fec-ad8c-42b8-995d-44894387fcb4">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
+  </con:method>
+  <con:environmentSpec>
+    <con:entry environmentId="292b3fec-ad8c-42b8-995d-44894387fcb4">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:resource>
